@@ -1,0 +1,54 @@
+header.booking {
+    background-color: rgba(36, 124, 255, 0.7);
+}
+
+
+
+h1.booking{
+    font-family: monospace;
+
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #247cff;
+    box-shadow: 0 0 5px rgba(36, 124, 255, 0.5);
+    outline: none;
+}
+
+/* Add border to the booking form */
+#bookingForm {
+    border: 2px solid #247cff;  /* Change the color and width as needed */
+    padding: 20px;  /* Optional: Add padding inside the form */
+    border-radius: 10px;  /* Optional: Add rounded corners */
+    width: 50%;  /* Adjust the width as needed */
+    max-width: 400px;  /* Set a maximum width */
+    margin: auto;  /* Center the form */
+    background-color: #fff;  /* Optional: Add background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Optional: Add shadow */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.booking {
+    height: fit-content;
+}

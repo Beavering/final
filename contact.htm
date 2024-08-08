@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body class="family">
+    <header>
+        <div class="topnav">
+            <a href="index.htm">Home</a>
+            <a href="login.htm">Sign in</a>
+            <a class="active" href="contact.htm">Contact</a>
+            <a href="booking.htm">Booking</a>
+        </div>
+        <div class="overlay">
+            <h1>Contact Us</h1>
+        </div>
+    </header>
+
+    <main class="family">
+        <div class="contact-container">
+            <section class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>If you have any questions or need further information, please feel free to contact us. We're here to help!</p>
+                <ul>
+                    <li><strong>Email:</strong> contact.iteam.com</li>
+                    <li><strong>Phone:</strong> 010XXXXXX</li>
+                </ul>
+            </section>
+            <section class="contact-form">
+                <h2>Contact Form</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Egyptian Suicide Hotline 7621602</p><button onclick="copy()">Copy number</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/Index.css">
+
+</head>
+<body>
+    
+
+<header class="booking">
+    <div class="topnav">
+        <a  href="index.htm">Home</a>
+        <a href="login.htm">Sign in</a>
+        <a href="contact.htm">Contact</a>
+        <a class="active" href="booking.htm">Booking</a>
+
+    </div>
+        <form id="bookingForm">
+            <h1 class="booking">Book an Appointment</h1>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-group">
+                <label for="therapist">Choose Therapist</label>
+                <select id="therapist" name="therapist" required>
+                    <option value="" disabled selected>Select your therapist</option>
+                    <option value="DavidMiller">Dr. David Miller</option>
+                    <option value="JohnsonMorales">Dr. Johnson Morales</option>
+                    <option value="MichealBrown">Dr. Micheal Brown</option>
+                </select>
+            </div>
+            <button type="submit">Book Appointment</button>
+        </form>  
+</header>
+</body>
+
+<footer>
+    <p>Contact us: <a href="mailto:contact@iteam.com">contact@iteam.com</a></p>
+    <p>Egyptian Suicide Hotline 7621602</p><button class="copy" onclick="copy()">Copy number</button>
+</footer>
+
+    <script src="booking.js"></script>
+</body>
+</html>

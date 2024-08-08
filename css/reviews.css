@@ -1,0 +1,63 @@
+
+.review-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;    
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.username {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.review-date {
+    margin: 0;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.review-body {
+    margin-top: 15px;
+}
+
+.review-text {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+.review-footer {
+    text-align: center;
+}
+
+.rating {
+    color: #f39c12;
+    font-size: 1em;
+}

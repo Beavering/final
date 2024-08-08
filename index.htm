@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iTeam Project</title>
+    <link rel="stylesheet" href="css/Index.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/reviews.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="topnav">
+        <a class="active" href="index.htm">Home</a>
+        <a href="login.htm">Sign in</a>
+        <a href="contact.htm">Contact</a>
+        <a href="booking.htm">Booking</a>
+
+    </div>
+    <div class="overlay">
+        <h1>Mind Heaven</h1>
+        <h3>No More Depression</h3>
+        <p class="center">We are a group of four people trying to make the world a better place by helping people treat each other in a good manner.</p>
+        <br>
+        <p class="center">If you think you have depression or someone you know</p>
+        <p>these are some instruction for you</p>
+        <a href="Patient.htm"><button>For Patients</button></a>
+        <a href="Family.htm"><button>For Family</button></a>
+    </div>
+</header>
+<main>
+    
+    <section>
+        <h2 class="services_title">What we offer</h2>
+        <br>
+        <p>1 – We help you get treated from mental disorders by offering you help from doctors and instructions on how to feel better.</p>
+        <p>2 – We offer you connection with professional doctors that you can ask for anything you need. You can book sessions with them online or onsite.</p>
+        <p>3 – We offer instructions for people on how to communicate in a good manner with mental disordered people.</p>
+        <p>4 – We try to do our best to make the world a better place for everyone by treating a disorder in humans which a lot of people think is shameful.</p>
+    </section>
+
+    <div class="container">
+    <div class="review-card">
+        <div class="review-header">
+            <img src="images/avatar1.jpg" alt="User Avatar" class="avatar">
+            <div class="user-info">
+                <h3 class="username">Dr. David Miller</h3>
+                <p class="review-date">latest review <br>August 7, 2024</p>
+            </div>
+        </div>
+        <div class="review-body">
+            <p class="review-text">
+                Dr. David Miller has been instrumental in my journey towards better mental health. His approach is both professional and warm, making each session a safe space for growth and healing. I can't thank him enough for his support and expertise.
+            </p>
+        </div>
+        <div class="review-footer">
+            <a href="booking.htm"> <button>Book Now!</button><br></a>
+            <span class="rating">★★★★★</span>
+        </div>
+    </div>
+
+    <div class="chatbox">
+        <div class="chatbox-header" style="color:transparent;">
+            <h4>Chat with us</h4>
+            <button id="minimizeButton" onclick="toggleChatbox()">−</button>
+        </div>
+        <div class="chatbox-body">
+            <div class="messages">
+                What do you need help with?<br><br>
+            </div>
+        </div>
+        <div class="chatbox-footer">
+            <input type="text" id="chatInput" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    
+
+    <div class="review-card">
+        <div class="review-header">
+            <img src="images/avatar2.jpg" alt="User Avatar" class="avatar">
+            <div class="user-info">
+                <h3 class="username">Dr. Johnson</h3>
+                <p class="review-date">latest review <br>september 3, 2024</p>
+            </div>
+        </div>
+        <div class="review-body">
+            <p class="review-text">
+                Dr. Johnson has been an incredible support during my difficult times.<br>
+                his empathetic approach and practical advice have greatly improved my mental well-being. 
+                <br>Highly recommend him to anyone seeking a compassionate therapist.
+            </p>
+        </div>
+        <div class="review-footer">
+            <a href="booking.htm"><button>Book Now!</button></a><br>
+            <span class="rating">★★★★★</span>
+        </div>
+    </div>
+
+    <div class="review-card">
+        <div class="review-header">
+            <img src="images/avatar3.jpg" alt="User Avatar" class="avatar">
+            <div class="user-info">
+                <h3 class="username">Dr. Micheal Brown</h3>
+                <p class="review-date">latest review <br>August 1, 2024</p>
+            </div>
+        </div>
+        <div class="review-body">
+            <p class="review-text">
+                I have been working with Dr. Micheal Brown for the past six months and the progress I've made is remarkable. <br>He is attentive, knowledgeable, and has a unique ability to make you feel heard and understood.<br>
+                I am grateful for his guidance.
+            </p>
+        </div>
+        <div class="review-footer">
+            <a href="booking.htm"><button>Book Now!</button></a><br>
+            <span class="rating">★★★★</span>
+        </div>
+    </div>
+</div>
+
+</main>
+<footer>
+    <p>Contact us: <a href="mailto:contact@iteam.com">contact@iteam.com</a></p>
+    <p>Egyptian Suicide Hotline 7621602</p><button onclick="copy()">Copy number</button>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
